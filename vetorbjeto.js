@@ -26,7 +26,12 @@ function funcao(){
     if (vet[i].salario > maiorSalario){
         maiorSalario = vet[i].salario
     }
+    if ((vet[i].sexo == 'F') && (vet[i].salario > 1000)){
+        qtde++;
+    }
    }
    alert("Média salarial" + somaSalario/vet.length)
-   alert("Média salarial" + somaSalario/vet.length )
+   alert("Média de filhos" + somaFilhos/vet.length)
+   alert("Maior salarial" + maiorSalario)
+   alert("Percentual" + qtde/3*100);
 }

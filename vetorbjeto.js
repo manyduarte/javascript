@@ -20,6 +20,7 @@ function funcao(){
     var somaSalario = 0
     var somaFilhos = 0
     var maiorSalario = vet[0].salario
+    var qtde = 0
    for (var i=0;i<vet.length;i++) {
     somaSalario = somaSalario + vet[i].salario
     somaFilhos = somaFilhos + vet[i].nfilho
